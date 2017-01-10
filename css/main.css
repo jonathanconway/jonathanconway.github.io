@@ -37,6 +37,18 @@ body > * {
   margin-bottom: 0;
 }
 
+/* Blurb */
+.blurb {
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-device-width: 480px) {
+  .blurb {
+    display: none;
+  }
+}
+
 /* Links */
 .links {
   display: inline-block;
