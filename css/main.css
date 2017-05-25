@@ -1,78 +1,76 @@
-/* Body */
 body {
-  padding: 5em;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2rem;
 }
-@media only screen and (max-device-width: 480px) {
+
+@media only screen and (max-width: 480px) {
   body {
-    padding: 1em;
+    margin-top: 1rem;
   }
 }
 
-/* Spacing */
-body > * {
-  margin-bottom: 2em;
-}
-@media only screen and (max-device-width: 480px) {
-  body > * {
-    margin-bottom: 1em;
-  }
+body, p, a {
+  color: #333;
 }
 
-/* Logo & Photo */
-.logo, .photo {
-  width: 8em;
-  height: 8em;
+.logo {
+  margin-left: -1rem;
 }
 
-/* Photo */
-.photo {
-  border-radius: 100%;
-  display: inline-block;
+.name, .title {
+  font-family: 'Roboto', sans-serif;
 }
-
-/* Name */
 .name {
-  color: maroon;
   margin-bottom: 0;
+  font-size: 1.5rem;
+}
+.title {
+  color: gray;
+  font-size: 0.9rem;
 }
 
-/* Blurb */
 .blurb {
   width: 20em;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1rem;
+  margin: 2rem auto;
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .blurb {
-    display: none;
+    width: auto;
+    font-size: 1.2rem;
   }
 }
 
-/* Links */
 .links {
   display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
 }
 .links a {
-  color: #510D0A;
-  text-decoration: none;
-  border-bottom: solid 1px #F3B61F;
   display: inline-block;
-  margin: 1em;
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
 }
 
 .links a:hover,
 .links a:active {
-  background-color: #510D0A;
-  color: white;
+  color: red;
 }
-@media only screen and (max-device-width: 480px) {
+
+@media only screen and (max-width: 480px) {
+  .links {
+    margin: 0 1rem 1rem 1rem;
+  }
   .links a {
-    width: 6em;
-    height: 6em;
-    line-height: 6em;
-    border: solid 1px #F3B61F;
-    margin-right: 0;
-    margin-top: 0;
+    display: inline-block;
+    font-size: 1.8rem;
+    border: solid 1px silver;
+    margin: 0 0 0.5rem 0;
+    padding: 1rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 0.5rem;
   }
 }
