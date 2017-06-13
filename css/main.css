@@ -28,6 +28,8 @@ body, p, a {
 .title {
   color: gray;
   font-size: 0.9rem;
+  padding-top: 1rem;
+  display: inline-block;
 }
 
 .blurb {
@@ -47,14 +49,14 @@ body, p, a {
   text-align: center;
   box-sizing: border-box;
 }
-.links a {
+.links .link {
   display: inline-block;
   font-size: 0.8rem;
   margin: 0 0.5rem;
 }
 
-.links a:hover,
-.links a:active {
+.links .link:hover,
+.links .link:active {
   color: red;
 }
 
@@ -62,7 +64,7 @@ body, p, a {
   .links {
     margin: 0 1rem 1rem 1rem;
   }
-  .links a {
+  .links .link {
     display: inline-block;
     font-size: 1.8rem;
     border: solid 1px silver;
@@ -72,5 +74,27 @@ body, p, a {
     box-sizing: border-box;
     text-decoration: none;
     border-radius: 0.5rem;
+  }
+}
+
+.links.links--secondary {
+  width: 100%;
+  margin-top: 1rem;
+}
+.links.links--secondary .link {
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .links.links--secondary {
+    margin-top: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  .links.links--secondary .link {
+    width: 47%;
+    font-size: 1rem;
   }
 }
