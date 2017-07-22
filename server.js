@@ -21,6 +21,7 @@ app.get('/portfolio', redirect('https://www.dropbox.com/s/ntwp5ibhv2pbz64/Portfo
 // Code
 app.get('/XmlToDynamic', redirect('https://github.com/jonathanconway/XmlToDynamic'))
 app.get('/ReactRouterWizard', redirect('https://github.com/jonathanconway/react-router-wizard'))
+app.get('/westpacpr', redirect('http://www.zdnet.com/article/westpac-live-hits-2-7-million-people-in-digital-services-drive/'))
 
 // Tech
 app.get('/how-to-net-development-on-mac', redirect('http://conwy.tech/net-development-on-macos-8tlwaj9g6'))
