@@ -45,5 +45,5 @@ app.get('/drivingrecord', redirect('https://www.service.nsw.gov.au/transaction/r
 app.use(express.static('public'))
 
 app.listen(app.get('port'), function () {
-  console.log(`Listening on port ${port}`);
+  console.log(`Listening on port ${app.get('port')}`);
 })
