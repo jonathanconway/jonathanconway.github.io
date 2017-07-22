@@ -18,6 +18,10 @@ app.get('/traffic', redirect('https://www.openprocessing.org/sketch/434134'))
 app.get('/research', redirect('https://www.dropbox.com/s/ck9yxs1wpcotgmi/Refugee%20Connect.pdf?dl=0'))
 app.get('/portfolio', redirect('https://www.dropbox.com/s/ntwp5ibhv2pbz64/Portfolio.pdf?dl=0'))
 
+// Code
+app.get('/XmlToDynamic', redirect('https://github.com/jonathanconway/XmlToDynamic'))
+app.get('/ReactRouterWizard ', redirect('https://github.com/jonathanconway/react-router-wizard'))
+
 // Tech
 app.get('/how-to-net-development-on-mac', redirect('http://conwy.tech/net-development-on-macos-8tlwaj9g6'))
 
