@@ -1,7 +1,7 @@
 {
   "name": "jonathanconway",
   "version": "1.0.0",
-  "description": "Homepage of Jonathan Conway, Developer & Designer",
+  "description": "Jonathan Conway | Developer • Designer • Researcher",
   "main": "server.js",
   "engines": {
     "node": "8.1.2"
