@@ -1,6 +1,16 @@
+@font-face {
+  font-family: SwedenSans;
+  src: url("../fonts/SwedenSans.otf") format("opentype");
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000rem;
+}
+
 body {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
   margin-top: 2rem;
 }
 
@@ -14,32 +24,72 @@ body, p, a {
   color: #333;
 }
 
-.logo {
-  margin-left: -1rem;
+.header {
+  position: relative;
+  display: inline-block;
+  height: 8rem;
+  width: 20rem;
+  margin-top: 5rem;
+}
+@media only screen and (max-width: 480px) {
+  .header {
+    margin-top: 0;
+    height: 5rem;
+  }
 }
 
-.name, .title {
-  font-family: 'Roboto', sans-serif;
+.logo {
+  position: absolute;
+  left: 0;
+  width: 5rem;
 }
-.name {
-  margin-bottom: 0;
-  font-size: 1.5rem;
-}
+  
+.brand-name,
+.name,
 .title {
+  position: absolute;
+  left: 6rem;
+}
+
+.brand-name {
+  font-family: 'SwedenSans', 'Courier New', serif;
+  margin: 0;
+  top: 0.25rem;
+  font-size: 1.6rem;
+}
+
+.brand-name::before {
+  display: inline-block;
+  content: '>';
   color: gray;
-  font-size: 0.9rem;
-  padding-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+.name,
+.title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.name {
+  top: 2.4rem;
+}
+
+.title {
+  top: 3.7rem;
   display: inline-block;
 }
 
 .blurb {
-  width: 20em;
+  width: 22rem;
   font-size: 1rem;
   margin: 2rem auto;
+  line-height: 1.8rem;
 }
 @media only screen and (max-width: 480px) {
   .blurb {
-    width: auto;
+    width: 90%;
     font-size: 1.2rem;
   }
 }
@@ -48,16 +98,22 @@ body, p, a {
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 480px) {
+  .links {
+    margin-top: 0;
+  }
 }
 .links .link {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0 0.5rem;
 }
 
 .links .link:hover,
 .links .link:active {
-  color: red;
+  color: #D6001C;
 }
 
 @media only screen and (max-width: 480px) {
@@ -82,7 +138,7 @@ body, p, a {
   margin-top: 1rem;
 }
 .links.links--secondary .link {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 @media only screen and (max-width: 480px) {
