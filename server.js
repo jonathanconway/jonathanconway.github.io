@@ -25,6 +25,7 @@ app.get('/XmlToDynamic', redirect('https://github.com/jonathanconway/XmlToDynami
 app.get('/ReactRouterWizard', redirect('https://github.com/jonathanconway/react-router-wizard'))
 
 // C.V.
+app.get('/cv', redirect('https://www.dropbox.com/s/sonx4chhpqeg287/JonathanConwayCV.pdf?dl=0'))
 app.get('/westpacpr', redirect('http://www.zdnet.com/article/westpac-live-hits-2-7-million-people-in-digital-services-drive/'))
 app.get('/tal', redirect('https://www.insuranceline.com.au/funeral-insurance'))
 app.get('/vmusic', redirect('https://web.archive.org/web/20120415120320/http://www.vmusic.com.au/home'))
