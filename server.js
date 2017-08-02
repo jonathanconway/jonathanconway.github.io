@@ -31,6 +31,7 @@ app.get('/tal', redirect('https://www.insuranceline.com.au/funeral-insurance'))
 app.get('/vmusic', redirect('https://web.archive.org/web/20120415120320/http://www.vmusic.com.au/home'))
 app.get('/healthdirect', redirect('http://www.zdnet.com/article/healthdirect-australia-looks-through-the-software-lens/'))
 app.get('/prototypecontrols', redirect('https://www.slideshare.net/jonathanaconway/working-with-researchers'))
+app.get('/liquorsafe', redirect('https://web.archive.org/web/20160318101237/http://www.mctsolutions.com.au/products/liquorsafe'))
 
 // Tech
 app.get('/how-to-net-development-on-mac', redirect('http://conwy.tech/net-development-on-macos-8tlwaj9g6'))
