@@ -35,6 +35,7 @@ app.get('/liquorsafe', redirect('https://web.archive.org/web/20160318101237/http
 
 // Tech
 app.get('/how-to-net-development-on-mac', redirect('http://conwy.tech/net-development-on-macos-8tlwaj9g6'))
+app.get('/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
 
 // DTA
 app.get('/dta', redirect('https://www.dta.gov.au/blog/Accessibility-going-beyond-the-guidelines'))
