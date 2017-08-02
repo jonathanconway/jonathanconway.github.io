@@ -111,8 +111,8 @@ body, p, a {
   margin: 0 0.5rem;
 }
 
-.links .link:hover,
-.links .link:active {
+.link:hover,
+.link:active {
   color: #D6001C;
 }
 
