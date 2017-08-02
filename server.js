@@ -38,6 +38,7 @@ app.get('/how-to-net-development-on-mac', redirect('http://conwy.tech/net-develo
 app.get('/tech/dot-net-development-on-mac', redirect('http://conwy.tech/net-development-on-macos-8tlwaj9g6'))
 app.get('/tech/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
 app.get('/tech/select', redirect('https://www.codementor.io/jonathanconway/when-not-to-use-select-95pb8kv1g'))
+app.get('/tech', redirect('https://www.codementor.io/jonathanconway'))
 
 // DTA
 app.get('/dta', redirect('https://www.dta.gov.au/blog/Accessibility-going-beyond-the-guidelines'))
