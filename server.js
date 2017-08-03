@@ -34,8 +34,7 @@ app.get('/prototypecontrols', redirect('https://www.slideshare.net/jonathanaconw
 app.get('/liquorsafe', redirect('https://web.archive.org/web/20160318101237/http://www.mctsolutions.com.au/products/liquorsafe'))
 
 // Tech
-app.get('/how-to-net-development-on-mac', redirect('http://conwy.tech/net-development-on-macos-8tlwaj9g6'))
-app.get('/tech/ ', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
+app.get('/tech/dot-net-development-on-mac', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
 app.get('/tech/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
 app.get('/tech/select', redirect('https://www.codementor.io/jonathanconway/when-not-to-use-select-95pb8kv1g'))
 app.get('/tech', redirect('https://www.codementor.io/jonathanconway'))
