@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/jonathanconway
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://conwy.co
+  * I am jonathanconway (https://keybase.io/jonathanconway) on keybase.
+  * I have a public key ASA7Vervmw8Z4dy8JI_5Z8sxZKGUfLNvdtjatCLQ6NdtZgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203b55eaef9b0f19e1dcbc248ff967cb3164a1947cb36f76d8dab422d0e8d76d660a",
+      "host": "keybase.io",
+      "kid": "01203b55eaef9b0f19e1dcbc248ff967cb3164a1947cb36f76d8dab422d0e8d76d660a",
+      "uid": "734eab9bfeb7b296953d05de948add19",
+      "username": "jonathanconway"
+    },
+    "merkle_root": {
+      "ctime": 1502760172,
+      "hash": "ca5889ba108b46f6f61e1b957b23cc604c28d256f668d906628895351b646d1d96b31302c80b09628a2eba0b40727e2b022be56e7fca07ee71002db4481014cc",
+      "hash_meta": "2e049d8c4d804c7502301b24f259ea55d7f873ab353dab42dbfd39da703d36c6",
+      "seqno": 1326170
+    },
+    "service": {
+      "hostname": "conwy.co",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.27"
+  },
+  "ctime": 1502760203,
+  "expire_in": 504576000,
+  "prev": "d13ce38066cc36727c5763c06b562f014d61c665a6f7e5806cdb153cb00b4106",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgO1Xq75sPGeHcvCSP+WfLMWShlHyzb3bY2rQi0OjXbWYKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwM2I1NWVhZWY5YjBmMTllMWRjYmMyNDhmZjk2N2NiMzE2NGExOTQ3Y2IzNmY3NmQ4ZGFiNDIyZDBlOGQ3NmQ2NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2I1NWVhZWY5YjBmMTllMWRjYmMyNDhmZjk2N2NiMzE2NGExOTQ3Y2IzNmY3NmQ4ZGFiNDIyZDBlOGQ3NmQ2NjBhIiwidWlkIjoiNzM0ZWFiOWJmZWI3YjI5Njk1M2QwNWRlOTQ4YWRkMTkiLCJ1c2VybmFtZSI6ImpvbmF0aGFuY29ud2F5In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAyNzYwMTcyLCJoYXNoIjoiY2E1ODg5YmExMDhiNDZmNmY2MWUxYjk1N2IyM2NjNjA0YzI4ZDI1NmY2NjhkOTA2NjI4ODk1MzUxYjY0NmQxZDk2YjMxMzAyYzgwYjA5NjI4YTJlYmEwYjQwNzI3ZTJiMDIyYmU1NmU3ZmNhMDdlZTcxMDAyZGI0NDgxMDE0Y2MiLCJoYXNoX21ldGEiOiIyZTA0OWQ4YzRkODA0Yzc1MDIzMDFiMjRmMjU5ZWE1NWQ3Zjg3M2FiMzUzZGFiNDJkYmZkMzlkYTcwM2QzNmM2Iiwic2Vxbm8iOjEzMjYxNzB9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY29ud3kuY28iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI3In0sImN0aW1lIjoxNTAyNzYwMjAzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImQxM2NlMzgwNjZjYzM2NzI3YzU3NjNjMDZiNTYyZjAxNGQ2MWM2NjVhNmY3ZTU4MDZjZGIxNTNjYjAwYjQxMDYiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEC76KgI7ACc5TMMI1uaht0dN8uRK5GB/g62vfCDXd91SFoFJ2W2DhwtlcCyx9Sw8EGoqOHsZb7Sqr1PN3+ACIoKqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgoN1NCk28XJu4QkGQLWzRH+h2qqTALJz0OvtBVyt3WZGjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jonathanconway
+
+==================================================================
