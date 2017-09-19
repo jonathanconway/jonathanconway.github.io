@@ -25,6 +25,7 @@ app.get('/XmlToDynamic', redirect('https://github.com/jonathanconway/XmlToDynami
 app.get('/ReactRouterWizard', redirect('https://github.com/jonathanconway/react-router-wizard'))
 app.get('/cram', redirect('https://gist.github.com/jonathanconway/15271dda82b1de39e12eb938ac4a6e8d'))
 app.get('/prototype-controls', redirect('https://github.com/jonathanconway/prototype-controls'))
+app.get('/react-mvp', redirect('https://www.npmjs.com/package/react-mvp'))
 
 // C.V.
 app.get('/cv', redirect('https://www.dropbox.com/s/sonx4chhpqeg287/JonathanConwayCV.pdf?dl=0'))
