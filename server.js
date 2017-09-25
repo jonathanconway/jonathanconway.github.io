@@ -22,6 +22,7 @@ app.get('/deathmarch', redirect('http://academia.edu/1999821/Death_March_-_Case_
 
 // Code
 app.get('/XmlToDynamic', redirect('https://github.com/jonathanconway/XmlToDynamic'))
+app.get('/xmldynamic', redirect('https://github.com/jonathanconway/XmlToDynamic'))
 app.get('/ReactRouterWizard', redirect('https://github.com/jonathanconway/react-router-wizard'))
 app.get('/cram', redirect('https://gist.github.com/jonathanconway/15271dda82b1de39e12eb938ac4a6e8d'))
 app.get('/prototype-controls', redirect('https://github.com/jonathanconway/prototype-controls'))
