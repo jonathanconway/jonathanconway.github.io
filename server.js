@@ -10,10 +10,11 @@ function redirect(to) {
 }
 
 function subdomainRedirect(subdomain, redirectTo) {
-  return function (req, res) {
+  return function (req, res, next) {
     if (req.subdomains.join('.') === subdomain) {
-      res.redirect(redirectTo)
+      res.redirect(redirectTo);
     }
+    next();
   };
 }
 
