@@ -47,6 +47,7 @@ app.get('/healthdirect', redirect('http://www.zdnet.com/article/healthdirect-aus
 app.get('/prototypecontrols', redirect('https://www.slideshare.net/jonathanaconway/working-with-researchers'))
 app.get('/liquorsafe', redirect('https://web.archive.org/web/20160318101237/http://www.mctsolutions.com.au/products/liquorsafe'))
 app.get('/refugee-connect', redirect('http://refugee-connect.surge.sh'))
+app.get('/crc', redirect('https://www.dropbox.com/home/Work/Portfolio?preview=Jonathan+Conway+-+Demonz.pdf'))
 
 // Tech
 app.get('/tech/dot-net-development-on-mac', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
