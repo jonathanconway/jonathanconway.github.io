@@ -38,6 +38,7 @@ app.get('/react-mvp', redirect('https://www.npmjs.com/package/react-mvp'))
 app.use(subdomainRedirect('reactmvp', 'https://www.npmjs.com/package/react-mvp'))
 app.use(subdomainRedirect('xmldynamic', 'https://github.com/jonathanconway/XmlToDynamic'))
 app.use(subdomainRedirect('waterpark', 'https://github.com/jonathanconway/async-waterpark'))
+app.use(subdomainRedirect('pasta', 'https://github.com/jonathanconway/pasta'))
 
 // C.V.
 app.get('/cv', redirect('https://www.dropbox.com/s/sonx4chhpqeg287/JonathanConwayCV.pdf?dl=0'))
