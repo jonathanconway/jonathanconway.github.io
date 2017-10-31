@@ -74,6 +74,10 @@ app.get('/snswaccount', redirect('https://my.service.nsw.gov.au/MyServiceNSW/ind
 app.get('/drivingrecord', redirect('https://www.service.nsw.gov.au/transaction/request-driving-record'))
 
 
+// Convenience
+app.get('/public', redirect('https://www.dropbox.com/sh/18r8i0wu488glmk/AABav5uhcniC91WrdD_WfDWMa?dl=0'))
+
+
 /**
  * Homepage
  */
