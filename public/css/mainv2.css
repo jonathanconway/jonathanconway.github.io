@@ -27,9 +27,9 @@ body, p, a {
 .header {
   position: relative;
   display: inline-block;
-  height: 8rem;
+  height: 5rem;
   width: 20rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 @media only screen and (max-width: 480px) {
   .header {
@@ -81,6 +81,8 @@ body, p, a {
   display: inline-block;
 }
 
+
+
 .blurb {
   width: 22rem;
   font-size: 1rem;
@@ -94,6 +96,36 @@ body, p, a {
   }
 }
 
+
+
+.latest {
+}
+.latest h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.2rem 0;
+}
+.latest p {
+  margin: 0.5rem 0 1rem 0;
+}
+.latest label {
+  color: #c41031;
+}
+@media only screen and (max-width: 480px) {
+  .latest {
+  }
+
+  .latest h2 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .latest p {
+    font-size: 1.2rem;
+  }
+}
+
+
+
 .links {
   display: inline-block;
   text-align: center;
@@ -102,9 +134,12 @@ body, p, a {
 }
 @media only screen and (max-width: 480px) {
   .links {
-    margin-top: 0;
+    margin: 2rem 1rem 1rem 1rem;
   }
 }
+
+
+
 .links .link {
   display: inline-block;
   font-size: 1rem;
@@ -117,9 +152,6 @@ body, p, a {
 }
 
 @media only screen and (max-width: 480px) {
-  .links {
-    margin: 0 1rem 1rem 1rem;
-  }
   .links .link {
     display: inline-block;
     font-size: 1.8rem;
