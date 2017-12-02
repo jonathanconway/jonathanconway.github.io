@@ -52,6 +52,7 @@ app.get('/crc', redirect('https://www.dropbox.com/home/Work/Portfolio?preview=Jo
 
 // Tech
 app.get('/tech/dot-net-development-on-mac', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
+app.get('/tech/prototyping', redirect('https://www.codementor.io/jonathanconway/user-interface-prototyping-with-quality-da8w4pdjy'))
 app.get('/tech/dotnet', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
 app.get('/tech/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
 app.get('/tech/select', redirect('https://www.codementor.io/jonathanconway/when-not-to-use-select-95pb8kv1g'))
