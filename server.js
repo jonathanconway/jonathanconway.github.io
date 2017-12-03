@@ -40,7 +40,7 @@ app.use(subdomainRedirect('xmldynamic', 'https://github.com/jonathanconway/XmlTo
 app.use(subdomainRedirect('waterpark', 'https://github.com/jonathanconway/async-waterpark'))
 
 // C.V.
-app.get('/cv', redirect('https://www.dropbox.com/s/sonx4chhpqeg287/JonathanConwayCV.pdf?dl=0'))
+app.get('/cv', redirect('https://www.dropbox.com/s/28bcpuqk5gym87v/JonathanConwayCV.pdf?dl=0'))
 app.get('/westpacpr', redirect('http://www.zdnet.com/article/westpac-live-hits-2-7-million-people-in-digital-services-drive/'))
 app.get('/tal', redirect('https://www.insuranceline.com.au/funeral-insurance'))
 app.get('/vmusic', redirect('https://web.archive.org/web/20120415120320/http://www.vmusic.com.au/home'))
