@@ -18,6 +18,17 @@ function subdomainRedirect(subdomain, redirectTo) {
   };
 }
 
+function forceSsl(req, res, next) {
+  if (req.host !== 'localhost') {
+    if (req.headers['x-forwarded-proto'] !== 'https') {
+      return res.redirect(['https://', req.get('Host'), req.url].join(''))
+    }
+  }
+  return next()
+}
+
+app.use(forceSsl)
+
 /**
  * Redirects
  */
