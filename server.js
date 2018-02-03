@@ -19,6 +19,9 @@ function subdomainRedirect(subdomain, redirectTo) {
 }
 
 function forceSsl(req, res, next) {
+  console.log('req.host', req.host);
+  console.log('req.get("Host")', req.get('Host'));
+
   if (req.host !== 'localhost') {
     if (req.headers['x-forwarded-proto'] !== 'https') {
       return res.redirect(['https://', req.get('Host'), req.url].join(''))
