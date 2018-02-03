@@ -61,7 +61,7 @@ body, p, a {
 .brand-name::before {
   display: inline-block;
   content: '>';
-  color: silver;
+  color: #c41031;
   margin-right: 0.5rem;
 }
 
