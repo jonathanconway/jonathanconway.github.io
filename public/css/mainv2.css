@@ -11,7 +11,7 @@
 body {
   text-align: center;
   font-family: 'Source Sans Pro', 'Arial', sans-serif;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -87,7 +87,7 @@ body, p, a {
   width: 22rem;
   font-size: 1rem;
   margin: 2rem auto;
-  line-height: 1.8rem;
+  line-height: 1.4rem;
 }
 @media only screen and (max-width: 480px) {
   .blurb {
@@ -186,4 +186,9 @@ body, p, a {
     width: 47%;
     font-size: 1rem;
   }
+}
+
+footer {
+  font-size: 0.9rem;
+  margin-top: 3rem;
 }
