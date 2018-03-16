@@ -67,6 +67,7 @@ app.get('/tech/prototyping', redirect('https://www.codementor.io/jonathanconway/
 app.get('/tech/dotnet', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
 app.get('/tech/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
 app.get('/tech/select', redirect('https://www.codementor.io/jonathanconway/when-not-to-use-select-95pb8kv1g'))
+app.get('/tech/diagramming', redirect('https://www.codementor.io/jonathanconway/diagramming-for-developers-gvomc4mwc'))
 app.get('/tech', redirect('https://www.codementor.io/jonathanconway'))
 
 // DTA
