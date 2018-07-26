@@ -1,4 +1,5 @@
 const express = require('express')
+const dateFns = require('date-fns')
 const app = express()
 
 app.set('port', (process.env.PORT || 5000));
@@ -6,6 +7,17 @@ app.set('port', (process.env.PORT || 5000));
 function redirect(to) {
   return function (req, res) {
     res.redirect(to);
+  }
+}
+
+function redirectToCV() {
+  return function (req, res) {
+    console.log('req', req.params.passcode);
+    if (req.params.passcode === dateFns.format(new Date(), 'ddddMMMM').toLowerCase()) {
+      res.redirect('https://www.dropbox.com/s/zk54owvmz6lt6fy/JonathanConwayCV.pdf?dl=0');
+    } else {
+      res.status(404).end(`Cannot GET ${req.path}`);
+    }
   }
 }
 
@@ -27,7 +39,7 @@ function forceSsl(req, res, next) {
   return next()
 }
 
-app.use(forceSsl)
+// app.use(forceSsl)
 
 /**
  * Redirects
@@ -52,7 +64,8 @@ app.use(subdomainRedirect('xmldynamic', 'https://github.com/jonathanconway/XmlTo
 app.use(subdomainRedirect('waterpark', 'https://github.com/jonathanconway/async-waterpark'))
 
 // C.V.
-app.get('/cv', redirect('https://www.dropbox.com/s/28bcpuqk5gym87v/JonathanConwayCV.pdf?dl=0'))
+// app.get('/cv', redirect('https://www.dropbox.com/s/28bcpuqk5gym87v/JonathanConwayCV.pdf?dl=0'))
+app.get('/cv/:passcode', redirectToCV())
 app.get('/westpacpr', redirect('http://www.zdnet.com/article/westpac-live-hits-2-7-million-people-in-digital-services-drive/'))
 app.get('/tal', redirect('https://www.insuranceline.com.au/funeral-insurance'))
 app.get('/vmusic', redirect('https://web.archive.org/web/20120415120320/http://www.vmusic.com.au/home'))
