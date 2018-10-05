@@ -1,0 +1,246 @@
+/**
+ * CONWY.co Homepage Styles
+ *
+ * Styles for the CONWY.co homepage.
+ * Adaptive Responsive (Mobile-First) for Mobile, Tablet/Desktop
+ */
+
+/**
+ * Fonts
+ */
+
+@font-face {
+  font-family: SwedenSans;
+  src: url("../fonts/SwedenSans.otf") format("opentype");
+}
+
+/**
+ * Utilities
+ *
+ * Classes that may be used throughout the page
+ */
+
+.sr-only {
+  position: absolute;
+  left: -10000rem;
+}
+
+/**
+ * Typography
+ */
+
+body, .label {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+}
+
+header, h1, h2, footer {
+  font-family: 'SwedenSans', 'Courier New', serif;
+}
+
+body, p, a {
+  color: #333;
+}
+
+
+/**
+ * Page
+ */
+
+html {
+  text-align: center;
+  margin: 0 1rem;
+}
+@media only screen and (min-width: 481px) {
+  html {
+  }
+}
+
+body {
+  margin: 1rem auto 0 auto;
+  max-width: 50rem;
+  text-align: left;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    margin-top: 1rem;
+  }
+}
+
+/**
+ * Header
+ */
+
+.header {
+  position: relative;
+  display: inline-block;
+}
+@media only screen and (min-width: 481px) {
+  .header {
+    margin-top: 1rem;
+  }
+}
+  
+.title {
+  position: relative;
+  margin: 0;
+  top: 0.25rem;
+  font-size: 2.5rem;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo-part-angle,
+.logo-part-underline,
+.logo-part-co {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+.logo-part-co {
+  font-size: 2rem;
+  margin-top: -0.3rem;
+}
+
+.logo-part-angle,
+.logo-part-underline {
+  font-size: 4rem;
+  margin-top: -1rem;
+}
+
+.logo-part-angle {
+  color: #c41031;
+}
+
+.logo-part-underline {
+  color: black;
+  margin-left: -1rem;
+}
+
+/**
+ * Latest
+ */
+
+.latest {
+  margin: 2rem 1rem 0 1rem;
+}
+@media only screen and (min-width: 481px) {
+  .latest {
+    margin: 2rem 10% 0 10%;
+  }
+}
+
+.latest-item {
+  margin: 2%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1rem;
+}
+@media only screen and (min-width: 481px) {
+  .latest-item {
+    width: 45%;
+  }
+}
+
+.latest .category {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.latest h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.2rem 0;
+  vertical-align: middle;
+}
+
+.latest p,
+.latest h2 {
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.latest label {
+  color: #c41031;
+}
+
+@media only screen and (max-width: 480px) {
+  .latest-item {
+
+  }
+}
+
+/**
+ * Links
+ */
+
+.links {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 2rem;
+  line-height: 2;
+}
+@media only screen and (min-width: 481px) {
+  .links {
+    text-align: right;
+    float: right;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .links {
+    margin: 2rem 1rem 1rem 1rem;
+  }
+}
+
+.links .link {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.link:hover,
+.link:active {
+  color: #D6001C;
+}
+
+@media only screen and (max-width: 480px) {
+  .links .link {
+  }
+}
+
+.link--bookme {
+  color: #c41031;
+}
+
+/**
+ * Footer
+ */
+
+footer {
+  font-size: 0.75rem;
+  display: inline-block;
+  width: 100%;
+  margin-top: 2rem;
+}
+@media only screen and (min-width: 481px) {
+  footer {
+    text-align: right;
+  }
+}
+
+footer .text:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+footer .boast {
+  opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 480px) {
+  footer .no-cookies {
+    display: block;
+  }
+}
