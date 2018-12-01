@@ -59,6 +59,7 @@ app.get('/ReactRouterWizard', redirect('https://github.com/jonathanconway/react-
 app.get('/cram', redirect('https://gist.github.com/jonathanconway/15271dda82b1de39e12eb938ac4a6e8d'))
 app.get('/prototype-controls', redirect('https://github.com/jonathanconway/prototype-controls'))
 app.get('/react-mvp', redirect('https://www.npmjs.com/package/react-mvp'))
+app.get('/wrappers', redirect('https://github.com/jonathanconway/react-layout-wrappers'))
 app.use(subdomainRedirect('reactmvp', 'https://www.npmjs.com/package/react-mvp'))
 app.use(subdomainRedirect('xmldynamic', 'https://github.com/jonathanconway/XmlToDynamic'))
 app.use(subdomainRedirect('waterpark', 'https://github.com/jonathanconway/async-waterpark'))
