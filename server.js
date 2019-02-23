@@ -107,6 +107,10 @@ app.get('/public', redirect('https://www.dropbox.com/sh/18r8i0wu488glmk/AABav5uh
 app.get('/experiments', redirect('http://conwy.co/experiments.html'))
 
 
+// Video
+app.get('/video', redirect('https://www.youtube.com/user/jonathanaconway'))
+
+
 /**
  * Homepage
  */
