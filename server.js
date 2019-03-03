@@ -63,6 +63,8 @@ app.get('/wrappers', redirect('https://github.com/jonathanconway/react-layout-wr
 app.use(subdomainRedirect('reactmvp', 'https://www.npmjs.com/package/react-mvp'))
 app.use(subdomainRedirect('xmldynamic', 'https://github.com/jonathanconway/XmlToDynamic'))
 app.use(subdomainRedirect('waterpark', 'https://github.com/jonathanconway/async-waterpark'))
+app.get('/des/ts-pipeline', redirect('https://www.npmjs.com/package/ts-pipeline'))
+app.get('/ts-pipeline', redirect('https://www.npmjs.com/package/ts-pipeline'))
 
 // C.V.
 // app.get('/cv', redirect('https://www.dropbox.com/s/28bcpuqk5gym87v/JonathanConwayCV.pdf?dl=0'))
