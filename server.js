@@ -85,7 +85,14 @@ app.get('/tech/dotnet', redirect('https://codementor.io/jonathanconway/net-devel
 app.get('/tech/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
 app.get('/tech/select', redirect('https://www.codementor.io/jonathanconway/when-not-to-use-select-95pb8kv1g'))
 app.get('/tech/diagramming', redirect('https://www.codementor.io/jonathanconway/diagramming-for-developers-gvomc4mwc'))
+app.get('/dot-net-development-on-mac', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
+app.get('/prototyping', redirect('https://www.codementor.io/jonathanconway/user-interface-prototyping-with-quality-da8w4pdjy'))
+app.get('/dotnet', redirect('https://codementor.io/jonathanconway/net-development-on-macos-8tlwaj9g6'))
+app.get('/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
+app.get('/select', redirect('https://www.codementor.io/jonathanconway/when-not-to-use-select-95pb8kv1g'))
+app.get('/diagramming', redirect('https://www.codementor.io/jonathanconway/diagramming-for-developers-gvomc4mwc'))
 app.get('/tech', redirect('https://www.codementor.io/jonathanconway'))
+app.get('/zero', redirect('https://dev.to/conw_y/towards-zero-bugs-1bop'))
 
 // DTA
 app.get('/dta', redirect('https://www.dta.gov.au/blog/Accessibility-going-beyond-the-guidelines'))
