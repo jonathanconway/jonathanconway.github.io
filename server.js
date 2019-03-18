@@ -74,6 +74,7 @@ app.get('/tal', redirect('https://www.insuranceline.com.au/funeral-insurance'))
 app.get('/vmusic', redirect('https://web.archive.org/web/20120415120320/http://www.vmusic.com.au/home'))
 app.get('/healthdirect', redirect('http://www.zdnet.com/article/healthdirect-australia-looks-through-the-software-lens/'))
 app.get('/prototypecontrols', redirect('https://www.slideshare.net/jonathanaconway/working-with-researchers'))
+app.get('/researchers', redirect('https://www.slideshare.net/jonathanaconway/working-with-researchers'))
 app.get('/liquorsafe', redirect('https://web.archive.org/web/20160318101237/http://www.mctsolutions.com.au/products/liquorsafe'))
 app.get('/refugee-connect', redirect('http://refugee-connect.surge.sh'))
 app.get('/crc', redirect('https://www.dropbox.com/home/Work/Portfolio?preview=Jonathan+Conway+-+Demonz.pdf'))
@@ -118,6 +119,7 @@ app.get('/experiments', redirect('http://conwy.co/experiments.html'))
 
 // Video
 app.get('/video', redirect('https://www.youtube.com/user/jonathanaconway'))
+app.get('/video/accessible', redirect('https://www.youtube.com/watch?v=86PqPOQx3Co'))
 
 
 /**
