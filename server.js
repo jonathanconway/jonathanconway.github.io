@@ -123,6 +123,7 @@ app.get('/experiments', redirect('http://conwy.co/experiments.html'))
 app.get('/video', redirect('https://www.youtube.com/user/jonathanaconway'))
 app.get('/video/accessible', redirect('https://www.youtube.com/watch?v=86PqPOQx3Co'))
 app.get('/video/minimalism', redirect('https://www.youtube.com/watch?v=cFOIzOdHl-c'))
+app.get('/video/whysoftware', redirect('https://youtu.be/CaxWQD7wems'))
 
 
 /**
