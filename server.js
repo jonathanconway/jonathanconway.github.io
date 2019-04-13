@@ -124,6 +124,7 @@ app.get('/video', redirect('https://www.youtube.com/user/jonathanaconway'))
 app.get('/video/accessible', redirect('https://www.youtube.com/watch?v=86PqPOQx3Co'))
 app.get('/video/minimalism', redirect('https://www.youtube.com/watch?v=cFOIzOdHl-c'))
 app.get('/video/whysoftware', redirect('https://youtu.be/CaxWQD7wems'))
+app.get('/video/interfaces-teamwork', redirect('https://www.youtube.com/watch?v=gjL5qEtKCkU'))
 
 
 /**
