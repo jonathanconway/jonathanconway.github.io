@@ -95,7 +95,7 @@ app.get('/dotnet', redirect('https://codementor.io/jonathanconway/net-developmen
 app.get('/tests', redirect('https://www.codementor.io/jonathanconway/tests-as-tools-akj9r67cp'))
 app.get('/select', redirect('https://www.codementor.io/jonathanconway/when-not-to-use-select-95pb8kv1g'))
 app.get('/diagramming', redirect('https://www.codementor.io/jonathanconway/diagramming-for-developers-gvomc4mwc'))
-app.get('/zero', redirect('https://dev.to/conw_y/towards-zero-bugs-1bop'))
+app.get('/zero', redirect('http://dev.to/conw_y/towards-zero-bugs-1bop'))
 
 // DTA
 app.get('/dta', redirect('https://www.dta.gov.au/blog/Accessibility-going-beyond-the-guidelines'))
