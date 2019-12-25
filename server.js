@@ -117,6 +117,8 @@ app.get('/drivingrecord', redirect('https://www.service.nsw.gov.au/transaction/r
 
 // Apps
 app.get('/epl', redirect('http://epl.conwy.co'))
+app.get('/emoji', redirect('http://emojipedia2.org'))
+app.get('/pasta', redirect('http://pasta.conwy.co'))
 
 
 // Convenience
