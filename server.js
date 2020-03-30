@@ -116,9 +116,9 @@ app.get('/drivingrecord', redirect('https://www.service.nsw.gov.au/transaction/r
 
 
 // Apps
-app.get('/epl', redirect('http://epl.conwy.co'))
-app.get('/emoji', redirect('http://emojipedia2.org'))
-app.get('/pasta', redirect('http://pasta.conwy.co'))
+app.get('/epl', redirect('https://www.producthunt.com/posts/eatpaylove'))
+app.get('/emoji', redirect('https://www.producthunt.com/posts/emojipedia-3'))
+app.get('/pasta', redirect('https://www.producthunt.com/posts/pasta-2'))
 
 
 // Convenience
