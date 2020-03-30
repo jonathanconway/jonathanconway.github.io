@@ -51,6 +51,7 @@ app.get('/research', redirect('https://www.dropbox.com/s/ck9yxs1wpcotgmi/Refugee
 app.get('/refugee', redirect('https://www.slideshare.net/jonathanaconway/refugee-connect'))
 app.get('/portfolio', redirect('https://www.dropbox.com/s/y21vtztwspbdkkc/Portfolio.pdf?dl=0'))
 app.get('/participatory', redirect('https://www.academia.edu/18862597/Comparative_Critique_-_User_Centred_and_Participatory_Design?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmtLtXQDWT8uHVI6qutAcuA%3D%3D'))
+app.get('/predictable', redirect('http://academia.edu/1999821/Death_March_-_Case_Studies_in_Predictable_Project_Failure?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmtLtXQDWT8uHVI6qutAcuA%3D%3D'))
 app.get('/death', redirect('http://academia.edu/1999821/Death_March_-_Case_Studies_in_Predictable_Project_Failure?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmtLtXQDWT8uHVI6qutAcuA%3D%3D'))
 app.get('/deathmarch', redirect('http://academia.edu/1999821/Death_March_-_Case_Studies_in_Predictable_Project_Failure?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmtLtXQDWT8uHVI6qutAcuA%3D%3D'))
 
