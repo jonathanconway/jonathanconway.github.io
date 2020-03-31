@@ -55,6 +55,9 @@ app.get('/predictable', redirect('http://academia.edu/1999821/Death_March_-_Case
 app.get('/death', redirect('http://academia.edu/1999821/Death_March_-_Case_Studies_in_Predictable_Project_Failure?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmtLtXQDWT8uHVI6qutAcuA%3D%3D'))
 app.get('/deathmarch', redirect('http://academia.edu/1999821/Death_March_-_Case_Studies_in_Predictable_Project_Failure?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmtLtXQDWT8uHVI6qutAcuA%3D%3D'))
 
+
+app.get('/cleaner', redirect('https://www.woolworths.com.au/shop/search/products?searchTerm=cleaner'))
+
 // Code
 app.get('/XmlToDynamic', redirect('https://github.com/jonathanconway/XmlToDynamic'))
 app.get('/ReactRouterWizard', redirect('https://github.com/jonathanconway/react-router-wizard'))
