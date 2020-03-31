@@ -58,6 +58,7 @@ app.get('/deathmarch', redirect('http://academia.edu/1999821/Death_March_-_Case_
 
 app.get('/cleaner', redirect('https://www.woolworths.com.au/shop/search/products?searchTerm=cleaner'))
 app.get('/thornhill', redirect('https://www.aussiefirebug.com/coronavirus-market-crash-with-peter-thornhill/'))
+app.get('/designlife', redirect('https://www.amazon.com.au/gp/product/1101875321/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=1101875321&linkCode=as2&tag=conwy19-22&linkId=6756c77cede77afb686d510046f54da9'))
 
 // Code
 app.get('/XmlToDynamic', redirect('https://github.com/jonathanconway/XmlToDynamic'))
