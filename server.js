@@ -106,6 +106,7 @@ app.get('/zero', redirect('http://dev.to/conw_y/towards-zero-bugs-1bop'))
 
 // DTA
 app.get('/dta', redirect('https://www.dropbox.com/s/u96uc5b9zdhxb4n/Portfolio.pdf'))
+app.get('/beyond', redirect('https://web.archive.org/web/20180313174506/https://www.dta.gov.au/blog/Accessibility-going-beyond-the-guidelines/'))
 app.get('/govpass', redirect('https://www.dta.gov.au/what-we-do/platforms/govpass/'))
 
 // Blog
